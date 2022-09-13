@@ -4,6 +4,7 @@
   "description": "loader实际上是一个有权调用Loader API的函数模块儿。并且这个函数中的this被webpack填充，lader API可以简单理解为:这个函数中可以用this调用的那些函数方法。",
   "main": "index.js",
   "scripts": {
+    "dev": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
